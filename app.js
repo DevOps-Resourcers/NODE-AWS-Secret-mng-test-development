@@ -38,6 +38,7 @@ const app = express();
 
       // ✅ Access individual keys
       console.log('✅ AWS Secret fetched successfully');
+
       console.log('DB_HOST:', secret.degree);
       console.log('DB_USER:', secret.field);
       console.log('DB_PASS:', secret.company);
