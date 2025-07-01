@@ -52,11 +52,11 @@ const app = express();
       process.env.EMAIL_USER = secret.email;
       process.env.PORT = secret.PORT;
 
-      console.log('PORT', process.env.PORT)
+      console.log('PORT:', process.env.PORT);
     }
 
   } catch (err) {
-    console.error('❌ Error fetching secret from AWS:', err.message);
+    console.error('❌ Error fetching secret from AWS ', err.message);
   }
 })();
 // ===== AWS SECRETS MANAGER FETCH END =====
