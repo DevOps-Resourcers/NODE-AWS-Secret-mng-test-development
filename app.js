@@ -42,7 +42,7 @@ const app = express();
       console.log('DB_HOST:', secret.degree);
       console.log('DB_USER:', secret.field);
       console.log('DB_PASS:', secret.company);
-      // console.log('PORT:', secret.PORT);
+
 
 
       // Optionally: Assign to environment variables or a global config
